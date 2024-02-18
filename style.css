@@ -1,0 +1,3520 @@
+title{
+    background-color: black;
+}
+
+ #header {
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(111, 109, 109);
+    border-bottom: 3px solid red;
+    margin-top: 0px;
+}
+.ORDI{
+    background-color: rgb(202, 202, 202);
+    border-radius: 100%;
+}
+.btn.view{
+    background-color: rgb(255, 255, 255);
+    color: rgb(107, 105, 105);
+    border: none;
+} 
+.btn.view:hover{
+    background-color: rgb(237, 237, 237);
+    color: rgb(165, 165, 165);
+    
+} 
+.navbarNav a:hover{
+ background-color: rgb(208, 208, 208);
+ padding: 10px;
+ border-radius: 100%;
+} 
+.navbarNav a{
+    padding: 10PX;
+    color: rgb(0, 0, 0);
+}
+.btnBuy a{
+    color:white;
+}
+
+.btnBuy{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.btnBuy:hover{
+    background-color: brown;
+    color: white;
+}
+#timeheader:hover{
+    background-color: rgb(208, 208, 208);
+}
+#timeheader{
+    border-radius: 100%;
+    padding: 8PX;
+    cursor: pointer;
+} 
+  .Nav{
+   position: fixed;
+   margin-top: 61px;
+   z-index: 20;
+}   
+ .navbar-brand{
+    font-size: 1.2rem;
+    font-weight: 700;
+ }  
+ .btn-buynow{
+    margin-left:70px;
+    width: 80%;
+ }
+ @media screen and (max-width:1054px) {
+    #pop{
+        display: flex;
+       position: fixed;
+       margin-left: 60%;
+       margin-top: -5%;   
+       width: 37%;
+       height: 55%;
+      
+   }
+  
+.con{
+ margin-left: 20px;
+margin-top: px; 
+width: 90%;
+height: 92%; 
+border: 0.25rem dotted #e0e5ec;
+padding: 1rem;
+text-align: center;
+line-height: 10px;
+
+}
+.No{
+ margin-top: 10px;
+}
+
+
+
+
+
+
+
+.pop{
+    display: none;
+    position: fixed;
+    margin-left: 70%;
+    margin-top: -10%;   
+    width: 29%;
+    height: 68%;
+    z-index: 20;
+ }
+
+.pop.visiblepop{
+    opacity: 1;
+    display: flex;
+    z-index: 20;
+}
+.DEMO12{
+    flex-direction: column;
+}
+.when{
+    line-height:5px;
+    text-align: center;
+}
+.les2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfd6f8;
+    color: #0061f2!important;
+    padding: 2px;
+    width: 80px;
+}
+.containertamplet{
+    margin-top: 0%;
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.cim{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Classifieds{
+    flex-direction: column;
+}
+.card-title{
+   display: block;
+}
+.CompanyPages{
+    background-color:white;
+    width:230px;
+    box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+}
+.Company1{
+    height:82%;
+}
+.Support2{
+    height:65%;
+}
+.Support4{
+    position:relative;
+    margin-top:5px;
+    height:50%;
+}
+.Support5{
+    height:78%;
+}
+
+.soussection3-Support5{
+    margin-top:-50px;
+}
+.DEMO19{
+    flex-direction: column;
+    background-color: #eff3f9!important;
+    margin-top: -80px;
+}
+.section3{
+    background-color: #eff3f9!important;
+    height:100%;
+    display: flex;
+}
+.soussection3{
+    position: relative;
+}
+.section31{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+.Pagessoussection3{
+
+}
+.Page:not(span):hover{
+background-color: #b0b0b0;   
+}
+.Page{
+    font-size: 15px;
+    height:43;
+}
+.Page:not(:last-child){
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 15px;
+    height:43px;
+}
+.Page :hover{
+    height:43px;
+}
+
+
+.Basic p{
+   display:flex; 
+   padding: 10px;
+ }
+.ARROWBasic{
+    position:absolute;
+     margin-left: 85%; 
+}
+
+    
+}
+@media screen and (max-width:996px){
+    .pop{
+        display: none;
+        position: fixed;
+        margin-left: 70%;
+        margin-top: -10%;   
+        width: 29%;
+        height: 68%;
+        z-index: 20;
+     }
+    
+    .pop.visiblepop{
+        opacity: 1;
+        display: flex;
+        z-index: 20;
+    }
+    .DEMO12{
+        flex-direction: column;
+    }
+    .when{
+        line-height:5px;
+        text-align: center;
+    }
+    .les2{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(100, 100, 100);
+    }
+    .primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bfd6f8;
+        color: #0061f2!important;
+        padding: 2px;
+        width: 80px;
+    }
+    .containertamplet{
+        margin-top: 0%;
+        display: flex;
+        float: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    }
+    .cim{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    
+    .Classifieds{
+        flex-direction: column;
+    }
+    .card-title{
+       display: block;
+    }
+    .CompanyPages{
+        background-color:white;
+        width:300px;
+        box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+        -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+    }
+    .Company1{
+        height:82%;
+    }
+    .Support2{
+        height:78%;
+    }
+    .Support4{
+        position:relative;
+        margin-top:5px;
+        height:64%;
+    }
+    .Support5{
+        height:78%;
+    }
+    
+    .soussection3-Support5{
+        margin-top:-50px;
+    }
+    .DEMO19{
+        flex-direction: column;
+        background-color: #eff3f9!important;
+        margin-top: -80px;
+    }
+    .section3{
+        background-color: #eff3f9!important;
+        height:100%;
+        display: flex;
+    }
+    .soussection3{
+        position: relative;
+    }
+    .section31{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    
+    }
+    .Pagessoussection3{
+    
+    }
+    .Page:not(span):hover{
+    background-color: #eff3f9!important;  
+    }
+    .Page{
+        font-size: 15px;
+        height:43;
+    }
+    .Page:not(:last-child){
+        border-bottom: 1px solid #b0b0b0;
+        font-size: 15px;
+        height:43px;
+    }
+    .Page :hover{
+        height:43px;
+    }
+    
+    
+    .Basic p{
+       display:flex; 
+       padding: 10px;
+     }
+    .ARROWBasic{
+        position:absolute;
+         margin-left: 85%; 
+    }
+    
+}
+
+ 
+ @media  screen  and (min-width:992px) and (max-width:13000px) {
+
+
+
+    .angleright.activer{
+        position: absolute;
+        display:flex;
+        transform: rotate(90deg);
+        margin-left: 70px;
+        margin-top:-17px;
+     }
+     .angleright{
+        position: absolute;
+        display:flex;
+        margin-left: 70px;
+        margin-top:-17px;
+     }
+     .anglerightPages.activeP{
+        position: absolute;
+        transform: rotate(90deg);
+        display:flex;
+        margin-left:48px;
+        margin-top:-17px; 
+    
+     }
+     .anglerightPages{
+        position: absolute;
+        display:flex;
+        margin-left:48px;
+        margin-top:-17px; 
+    
+     }
+      .anglerightDocumentation.activeD{
+        position: absolute;
+        transform: rotate(90deg);
+        display:flex;
+        margin-left:115px;
+        margin-top:-17px; 
+     }
+     .anglerightDocumentation{
+        position: absolute;
+        display:flex;
+        margin-left:115px;
+        margin-top:-17px; 
+     } 
+    
+    .menurectify{
+        position: absolute;
+        display: none;
+        width:160%;
+        margin-left: -100%;
+        background: transparent;
+        border: none;
+        margin-top:20%;
+    }
+  .menurectifyactive{   
+      position: absolute;
+      display: flex;
+      width:160%;
+      margin-left: -100%;
+      background: transparent;
+      border: none;
+      margin-top:20%;
+  } 
+  .sousmenudropdowrectify{
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
+  }
+  .container0rectify{
+      background-image:url(IMAGES/photo-1475694867812-f82b8696d610.jpeg);
+      background-repeat:no-repeat;
+      background-size: cover;
+      background-color: blue;
+      width:100%;
+      margin-left: -150%;    
+  }
+
+  .APPLICATIONSrectify{
+    display: flex;
+    width: 135%;
+  }
+  /* .................................................................................. */
+  .menu5{
+      margin-top: 30px;
+  }
+  .menu5 a{
+     gap:20px;
+     color: black;
+  }
+  .menu5 h6{
+      color: blue;
+  }
+  .container4 p{
+    color: white;
+    line-height: 15px;
+  }
+  .buttonViewAll{
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: white;
+      color: blue;
+  }
+  .menu5 a p{
+      line-height: 15px;
+  }
+  /* ........................................................................... */
+  .menuPAGE{
+    position: absolute;
+      display:none;
+      margin-top: 18%;
+      margin-left: -680%;
+      background: transparent;
+      border: none;
+  }
+  .menuPAGEactive{
+    position: absolute;
+      display: flex;
+      margin-top: 18%;
+      margin-left: -650%;
+      background: transparent;
+      border: none;
+  }
+  .sousmenudropdawnPage{
+    display: flex;
+  }
+  .COMPANY{
+    display: flex;
+    width:220%;
+  }
+  /* ...................................................... */
+  .containerB{
+      gap: 20px;
+  }
+  .containerB p{
+     color: black;
+  }
+  .container7:not(:last-child){
+    border-bottom: 1px solid rgb(198, 188, 188);
+    }
+  
+  /* ...................................................................... */
+ 
+ 
+  
+   .container6{  
+    margin-left: -30px;      
+      /* position: absolute;
+      width:30%;
+      height: 48vh;
+      background-color: rgb(255, 255, 255);
+      border-radius:10px;
+      margin-left: -25%; */
+  }  
+  .menuPAGED{
+    position: absolute;
+    display:none; 
+    background-color: rgb(255, 255, 255);
+    width:32%;
+    margin-left: -18%;
+    border: none;
+    border-radius: 10px;
+
+  } 
+  .menuPAGEDactive{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    width:32%;
+    margin-left: -18%;
+    border: none;
+}
+.container7:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    width: 129%;
+}
+
+ 
+
+  /* ...................................................................... */
+  .containerB{
+      padding: 5px;
+      padding-left: 15px;
+  }
+  .fa-book-open,
+  .fa-code,
+  .fa-file{
+      background-color: rgb(172, 172, 240);
+      color: blue;
+      padding: 10px;
+      border-radius: 100%;
+  }
+  .Documentation{
+      color: rgb(172, 172, 172);
+  }
+  .BuildA{
+   font-size: 38px;
+  }
+  .BuildB {
+      font-size: 18px;
+     }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     .pop{
+      display: none;
+      position: fixed;
+      margin-left: 70%;
+      margin-top: -10%;   
+      width: 29%;
+      height: 68%;
+      z-index: 20;
+   }
+  
+  .pop.visiblepop{
+      opacity: 1;
+      display: flex;
+      z-index: 20;
+  }
+  .DEMO12{
+      flex-direction: column;
+  }
+  .when{
+      line-height:5px;
+      text-align: center;
+  }
+  .les2{
+      text-align: center;
+      font-size: 20px;
+      color: rgb(100, 100, 100);
+  }
+  .primary{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #bfd6f8;
+      color: #0061f2!important;
+      padding: 2px;
+      width: 80px;
+  }
+  .containertamplet{
+      margin-top: 0%;
+      display: flex;
+      float: center;
+      justify-content: center;
+      align-items: center;
+  }
+  .card:hover{
+  box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+  -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+  }
+  .cim{
+      display: flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 40px;
+  }
+  
+  .Classifieds{
+      flex-direction: column;
+  }
+  .card-title{
+     display: block;
+  }
+  .CompanyPages{
+      background-color:white;
+      width:300px;
+      box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+      -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+  }
+  .Company1{
+      height:82%;
+  }
+  .Support2{
+      height:65%;
+  }
+  .Support4{
+      position:relative;
+      margin-top:5px;
+      height:50%;
+  }
+  .Support5{
+      height:78%;
+  }
+  
+  .soussection3-Support5{
+      margin-top:-50px;
+  }
+  .DEMO19{
+      flex-direction: column;
+      background-color: #eff3f9!important;
+      margin-top: -80px;
+  }
+  .section3{
+      background-color: #eff3f9!important;
+      height:100%;
+      display: flex;
+      justify-content: center;
+  }
+  .soussection3{
+      position: relative;
+  }
+  .section31{
+      position:relative;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      margin-top: 70px;
+  
+  }
+  .Pagessoussection3{
+  
+  }
+  .Page:not(span):hover{
+  background-color: #eff3f9!important;  
+  }
+  .Page{
+      font-size: 15px;
+      height:43;
+  }
+  .Page:not(:last-child){
+      border-bottom: 1px solid #b0b0b0;
+      font-size: 15px;
+      height:43px;
+  }
+  .Page :hover{
+      height:43px;
+  }
+  
+  
+  .Basic p{
+     display:flex; 
+     padding: 10px;
+   }
+  .ARROWBasic{
+      position:absolute;
+       margin-left: 85%; 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .Customizable{
+    flex-direction: column;
+    background-color: #ffffff!important;
+    margin-top: 3%;
+}
+.DEMOA{
+width: 105px;
+}
+.section4 {
+margin-top: 8%;
+display: flex;
+float: center;
+justify-content: center;
+align-items: center;
+}
+.les4{
+text-align: center;
+flex-wrap: wrap;
+font-size: 20px;
+color: rgb(100, 100, 100);
+}
+.textesection4{
+width: 60%;
+}
+
+.DEMO192{
+flex-direction: column;
+background-color: #eff3f9!important;
+margin-top: -90px;
+}
+
+.IMGSECTION5{
+margin-top: 5%;
+}
+
+.SOUSSECTION5{
+display: flex;
+justify-content: center;
+flex-direction:column;
+align-items: center;
+font-size: 17px;
+margin-top: 5%;
+}
+.SOUSSECTION5 p{
+text-align: center;
+
+
+}
+.We{
+line-height: 20px;
+color: rgb(146, 145, 145);
+}
+.Custom{
+
+}
+.SECTION5{
+position: relative;
+display: flex;
+justify-content: center;
+flex-direction:row;
+align-items: center;
+flex-wrap: wrap;
+gap: 30px;
+}
+.lastbtn:hover{
+background-color: #345689;
+}
+.lastbtn{
+margin-top: 30px;
+}
+.SOITDIX{
+font-size:100px;
+font-weight: bold;
+color: rgb(159, 159, 159);
+}
+.grsection5{
+background-color: #eff3f9!important;
+display: flex;
+justify-content: center;
+flex-direction:column;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.grsection5MEDIA{
+    background-color: #eff3f9!important;
+    display:none;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:-15%;
+    }
+
+    .sousfooter{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: rgb(147, 147, 147);
+    } 
+
+    .footerPRODUCT a{
+        text-decoration: none;
+        color: rgb(147, 146, 146);
+    }
+    .footerPRODUCT a:hover{
+        text-decoration:underline;
+    }
+    .PRODUCT a{
+        text-decoration: none;
+        color: rgb(147, 146, 146);
+    }
+    .PRODUCT a:hover{
+        text-decoration:underline;
+    }
+
+
+    .PRODUCT{
+        color: rgb(147, 147, 147);
+     }
+     .PRODUCT p{
+         font-size: 18px;
+      }
+      
+     .iconfooterbootstrap i{
+         padding: 10px;
+         font-size: 20px;
+     }
+     
+     
+     
+     .traitfooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        height: 2px;
+        background-color: #d4d2d2;
+        margin-left:8%;
+     }
+
+     .Copyright{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+         gap: 40%;
+        padding: 1.5%;
+        color:#c4c4c4;  
+     }
+     .sousfooter2{
+       
+     }
+   }
+
+ 
+ @media screen and (max-width:991.33px){  
+
+    .btn-buynow{
+        margin-left:0px;
+        width: 20%;
+        font-size: 13px;
+        padding: 13px;
+        margin-top: 40px;
+     }
+
+      /* .navbar-dark{
+    
+        max-height: 500px;
+        overflow-y: scroll;
+
+    }  */
+
+    .navbar-darkactive{
+        /* display: flex; */
+        max-height: 500px;
+        overflow-y: scroll;
+
+    }
+    
+    #Navb{
+        background-color: rgb(38, 37, 37);
+
+    }
+    #pop{
+        display: flex;
+       position: fixed;
+       margin-left: 65%;
+       margin-top: -15%;   
+       width: 33%;
+       height: 68%;
+       
+   }
+/* ....................................................................................... */
+   .angleright.activer{
+    position: absolute;
+    display:flex;
+    transform: rotate(90deg);
+    margin-left: 95%;
+    margin-top:-15px; 
+
+ }
+ .angleright{
+    position: absolute;
+    display:flex;
+    margin-left: 95%;
+    margin-top:-15px; 
+
+ }
+ .anglerightPages.activeP{
+    transform: rotate(90deg);
+    position: relative;
+    display:flex;
+    margin-left:48px;
+    margin-top:-17px; 
+   
+ }
+
+   .menurectify{
+    position: absolute;
+    display: none;
+    width:50%;
+    margin-left: 53%;
+    background: transparent;
+    border: none;
+    margin-top:0%;
+}
+  .menurectifyactive{   
+  position:relative;
+  display: flex;
+  width:50%;
+  margin-left: 53%;
+  background: transparent;
+  border: none;
+  margin-top:0%;
+}   
+.sousmenudropdowrectify{
+display: flex;
+margin-left: -127%;
+}
+
+
+.APPLICATIONSrectify{
+display: flex;
+flex-direction: column;
+width: 670px;
+border-radius: 10px;
+}
+/* .container0rectify{
+  display: none;
+  background-image:url(IMAGES/photo-1475694867812-f82b8696d610.jpeg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-color: blue;
+  width:100%;
+  margin-left: -150%;    
+} */
+
+  /* .navbar-dark{
+        max-height: 500px;
+        overflow-y: scroll;
+
+    } */
+/* .................................................................................................. */
+
+
+
+ .anglerightPages.activeP{
+    position:absolute;
+    transform: rotate(90deg);
+    display:flex;
+     margin-left:95%;
+    margin-top:-17px;  
+   
+ }
+ .anglerightPages{
+    position:absolute;
+    display:flex;
+    margin-left:95%;
+    margin-top:-17px;  
+   
+ }
+ 
+
+.menuPAGE{
+    position: absolute;
+      display:none;
+      margin-top: 18%;
+      margin-left: -100%;
+      background: transparent;
+      border: none;
+  }
+  .menuPAGEactive{
+    position: absolute;
+      display:flex;
+      margin-top: 0%;
+      margin-left: -0%;
+      background: transparent;
+      border: none;
+  }
+  .sousmenudropdawnPage{
+    display: flex;
+    margin-left: -5%;
+  }
+  .COMPANY{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 650px;
+  
+  }
+  .menu5{
+    margin-top: 10px;
+    margin-left: 5%;
+  }
+  
+  /* ...................................................... */
+
+
+
+  .anglerightDocumentation.activeD{
+    /* position: absolute; */
+    transform: rotate(90deg);
+    display:flex;
+    margin-left:92%;
+    margin-top:-0px; 
+ }
+ .anglerightDocumentation{
+    /* position:absolute; */
+    display:flex;
+    margin-left:95%;
+    margin-top:-17px; 
+ }
+
+
+  /* .container7:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+
+.container6{ 
+    width:23%;
+    height: 41.5vh;
+    background-color: rgb(255, 255, 255);
+    border-radius:10px;
+    height: 47vh;
+}
+.menuPAGED{
+    display: none;
+    width:425%;
+    margin-left:-5%;
+    background: transparent;
+    border: none;
+    
+} */
+
+.container6{  
+    margin-left: -30px;      
+      /* position: absolute;
+      width:30%;
+      height: 48vh;
+      background-color: rgb(255, 255, 255);
+      border-radius:10px;
+      margin-left: -25%; */
+  }  
+  .menuPAGED{
+    display:none; 
+    background-color: rgb(255, 255, 255);
+    width:95%;
+    margin-left:0%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0px;
+  } 
+  .menuPAGEDactive{
+    /* position: absolute; */
+    background-color: rgb(255, 255, 255);
+    display: flex; 
+    width:95%;
+    margin-left:0%;
+    border: none;
+    margin-top: -10px;
+}
+.container7:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    width: 209%;
+}
+
+
+
+
+    /* 91 */
+    /* .container6{
+        width:10%;
+        height: 39vh;
+        background-color: rgb(255, 255, 255);
+        border-radius:10px;
+    } */
+    /* .menuPAGED{
+        position: absolute;
+        display:none;
+        width:1100%;
+        margin-left: -180%;
+        background: transparent;
+        border: none;
+    } */
+
+    /* .menuPAGEDactive{
+        display: flex;
+        width:425%;
+        margin-left:-5%;
+        background: transparent;
+        border: none;
+  }
+   */
+  
+    /* ...................................................................... */
+
+
+    .BuildA{
+        font-size: 38px;
+       }
+       .BuildB {
+           font-size: 18px;
+          }
+    .textetboutton{
+        margin-left: -70px;
+    }
+   
+     /* .btn-success{
+        padding: -20px;
+      
+    }  */
+  .containerB{
+        gap: 20px;
+    }
+    .containerB p{
+       color: black;
+    }
+    
+    .container7:hover{
+        background-color: rgb(230, 230, 230);
+    }
+    
+     .container7:not(:last-child){
+    border-bottom: 1px solid rgb(198, 188, 188);
+    } 
+       
+    /* .container6{ 91
+        width:23%;
+        height: 41.5vh;
+        background-color: rgb(255, 255, 255);
+        border-radius:10px;
+    }
+    .menuPAGED{
+        width:430%;
+        margin-left:0%;
+        background: transparent;
+        border: none;
+    } */
+    .containerB{
+        padding: 5px;
+        padding-left: 15px;
+    }
+    .fa-book-open,
+    .fa-code,
+    .fa-file{
+        background-color: rgb(172, 172, 240);
+        color: blue;
+        padding: 10px;
+        border-radius: 100%;
+    }
+    .Documentation{
+        color: rgb(172, 172, 172);
+    } 
+    
+
+    
+   
+    .navbar-toggler{
+        font-size: 15px;
+        border: none;
+        
+    }
+    .navbar-toggler:hover{
+        background-color: rgb(29, 175, 29);
+        
+    }
+
+    .container4 p{
+        display: none;
+        color: white;
+        line-height: 15px;
+      }
+      .buttonViewAll{
+        display: none;
+          padding-left: 30px;
+          padding-right: 30px;
+          background-color: white;
+          color: blue;
+      }
+    .APPLICATIONS{
+        height: 910px;
+        width: 690px;
+        margin-left: 15px;
+        
+    }
+
+        .navbar-nav .menu {
+        position: static;
+        width: 100%;
+    }  
+    .navbar-nav .menuPAGE{
+        position: static;
+        width:80%;
+
+    }
+    /* .COMPANY{
+        height: 1020px;
+        width: 500px;
+        margin-left: 15px;
+        
+    } */
+
+
+
+
+
+
+
+    .pop{
+        display: none;
+        position: fixed;
+        margin-left: 70%;
+        margin-top: -10%;   
+        width: 29%;
+        height: 68%;
+        z-index: 20;
+     }
+    
+    .pop.visiblepop{
+        opacity: 1;
+        display: flex;
+        z-index: 20;
+    }
+    .DEMO12{
+        flex-direction: column;
+    }
+    .when{
+        line-height:5px;
+        text-align: center;
+    }
+    .les2{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(100, 100, 100);
+    }
+    .primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bfd6f8;
+        color: #0061f2!important;
+        padding: 2px;
+        width: 80px;
+    }
+    .containertamplet{
+        margin-top: 0%;
+        display: flex;
+        float: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    }
+    .card img{
+       width: 200%;
+       height: 50vh;
+        } 
+    .cim{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-left: -260px;
+    }
+    
+    .Classifieds{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 600px;
+    }
+    .card-title{
+       display: block;
+    }
+    .CompanyPages{
+        background-color:white;
+        width:650px;
+        box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+        -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+    }
+    .Company1{
+        height:81%;
+    }
+    .Support2{
+        height:78%;
+    }
+    .Support4{
+        position:relative;
+        height:64%;
+    }
+    .Support5{
+        height:78%;
+    }
+    
+    .soussection3-Support5{
+        margin-top:10px; 
+    }
+    .DEMO19{
+        flex-direction: column;
+        background-color: #eff3f9!important;
+        margin-top: -80px;
+    }
+    .section3{
+        background-color: #eff3f9!important;
+        height:100%;
+        display: flex;
+    }
+    .soussection3{
+        position: relative;
+    }
+    .section31{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    
+    }
+    .Pagessoussection3{
+    
+    }
+    .Page:not(span):hover{
+    background-color: #eff3f9!important;  
+    }
+    .Page{
+        font-size: 15px;
+        height:43;
+    }
+    .Page:not(:last-child){
+        border-bottom: 1px solid #b0b0b0;
+        font-size: 15px;
+        height:43px;
+    }
+    .Page :hover{
+        height:43px;
+    }
+    
+    
+    .Basic p{
+       display:flex; 
+       padding: 10px;
+     }
+    .ARROWBasic{
+        position:absolute;
+         margin-left: 95%; 
+    }
+    
+       
+
+
+
+
+
+
+
+
+
+    .Customizable{
+        flex-direction: column;
+        background-color: #ffffff!important;
+        margin-top: 3%;
+    }
+    .DEMOA{
+    width: 105px;
+    }
+    .section4 {
+    margin-top: 8%;
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .les4{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    }
+    .textesection4{
+    width: 60%;
+    }
+    
+    .DEMO192{
+    flex-direction: column;
+    background-color: #eff3f9!important;
+    margin-top: -90px;
+    }
+    
+    .IMGSECTION5{
+    margin-top: 5%;
+    }
+    
+    .SOUSSECTION5{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 5%;
+    }
+    .SOUSSECTION5 p{
+    text-align: center;
+    
+    
+    }
+    .We{
+    line-height: 20px;
+    color: rgb(146, 145, 145);
+    }
+    .Custom{
+    
+    }
+    .SECTION5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+    .lastbtn:hover{
+    background-color: #345689;
+    }
+    .lastbtn{
+    margin-top: 30px;
+    }
+    .SOITDIX{
+    font-size:100px;
+    font-weight: bold;
+    color: rgb(159, 159, 159);
+    }
+    .grsection5{
+    background-color: #eff3f9!important;
+    display: none;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .grsection5MEDIA{
+        background-color: #eff3f9!important;
+        display:flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top:-15%;
+        }
+
+       
+         .sousfooter{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            flex-wrap: wrap;
+            gap: 26%;
+            padding: 0%;
+        } 
+        .footerPRODUCT a{
+            position: relative;
+            text-decoration: none;
+            color: rgb(147, 146, 146);
+        }
+        .footerPRODUCT a:hover{
+            text-decoration:underline;
+        }
+        .PRODUCT{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            background: transparent;
+            width: 60%;
+            height: 35%;
+        }
+        .PRODUCT a{
+            text-decoration: none;
+            color: rgb(147, 146, 146);
+        }
+        .PRODUCT a:hover{
+            text-decoration:underline;
+        }
+        .PRODUCT1{
+            margin-top:-70px;
+        }
+        .PRODUCT2{
+            margin-top:-100px;
+        }
+
+
+        .traitfooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:80%;
+            height: 2px;
+            background-color: #d4d2d2;
+            margin-left:8%;
+         }
+    
+         .traitfooter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:80%;
+            height: 2px;
+            background-color: #d4d2d2;
+            margin-left:8%;
+         }
+    
+         .Copyright{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+             gap: 40%;
+            padding: 1.5%;
+            color:#c4c4c4;  
+         }
+         .sousfooter2{
+            margin-top: 40%;
+           
+         }
+ }
+ @media screen and (max-width:767.33px){
+    .btn-buynow{
+        margin-left:0px;
+        width: 30%;
+        font-size: 13px;
+        padding: 13px;
+        margin-top: 40px;
+     }
+    .menurectify{
+        position: absolute;
+        display: none;
+        width:50%;
+        margin-left: 53%;
+        background: transparent;
+        border: none;
+        margin-top:0%;
+    }
+      .menurectifyactive{   
+      position:relative;
+      display: flex;
+      width:50%;
+      margin-left: 53%;
+      background: transparent;
+      border: none;
+      margin-top:0%;
+    }   
+    .sousmenudropdowrectify{
+    display: flex;
+    margin-left: -127%;
+    }
+    
+    
+    .APPLICATIONSrectify{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    border-radius: 10px;
+    }
+
+
+
+    .COMPANY{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 470px;
+      
+      }
+      /*  667*/
+      /* .container6{
+        width:23%;
+        height: 41.5vh;
+        background-color: rgb(255, 255, 255);
+        border-radius:10px;
+    }
+    .menuPAGED{
+        display: none;
+        width:425%;
+        margin-left:-5%;
+        background: transparent;
+        border: none;
+    }
+    .menuPAGEDactive{
+        display: flex;
+        width:425%;
+        margin-left:-5%;
+        background: transparent;
+        border: none;
+        height: 90%;
+    } */
+
+
+
+
+    .container6{  
+        margin-left: -30px;      
+          /* position: absolute;
+          width:30%;
+          height: 48vh;
+          background-color: rgb(255, 255, 255);
+          border-radius:10px;
+          margin-left: -25%; */
+      }  
+      .menuPAGED{
+        display:none; 
+        background-color: rgb(255, 255, 255);
+        width:95%;
+        margin-left:0%;
+        border: none;
+        border-radius: 10px;
+        margin-top: 0px;
+      } 
+      .menuPAGEDactive{
+        /* position: absolute; */
+        background-color: rgb(255, 255, 255);
+        display: flex; 
+        width:95%;
+        margin-left:0%;
+        border: none;
+        margin-top: -10px;
+    }
+    .container7:hover{
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        width: 153%;
+    }
+    
+    
+
+
+
+
+
+
+
+
+    .BuildA{
+        font-size: 40px;
+        margin-top: 105px;
+       }
+       .BuildB {
+           font-size: 18px;
+          }
+    .textetboutton{
+        margin-left: -150px;
+        margin-top: -100px;
+    }
+    /* .navbar-dark{
+        max-height: 500px;
+        overflow-y: scroll;
+
+    }
+    */
+    /* .menuPAGED{
+        width:350%;
+        margin-left:0%;
+        background: transparent;
+        border: none;
+    } */
+
+       .APPLICATIONS{
+        height: 910px;
+        width: 400px;
+        margin-left: 15px;
+        
+    } 
+    .navbar-nav .menu {
+        position: static;
+        width: 70%;
+    }  
+     
+    
+    /* .btn-success{
+        padding: 10px;
+        margin-right: %;
+    } */
+    .navbar-nav .menuPAGE{
+        position: static;
+        width:80%;
+
+    }
+    /* .COMPANY{
+        height: 1020px;
+        width: 400px;
+        margin-left: 15px;
+        
+    } */
+    .btn-buynow{
+        margin-left:5px;
+     }
+
+
+
+
+
+
+
+     .pop{
+        display: none;
+        position: fixed;
+        margin-left: 70%;
+        margin-top: -10%;   
+        width: 29%;
+        height: 68%;
+        z-index: 20;
+     }
+    
+    .pop.visiblepop{
+        opacity: 1;
+        display: flex;
+        z-index: 20;
+    }
+    .DEMO12{
+        flex-direction: column;
+    }
+    .when{
+        line-height:5px;
+        text-align: center;
+    }
+    .les2{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(100, 100, 100);
+    }
+    .primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bfd6f8;
+        color: #0061f2!important;
+        padding: 2px;
+        width: 80px;
+    }
+    .containertamplet{
+        margin-top: 0%;
+        display: flex;
+        float: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    }
+    .card img{
+        width: 150%;
+        height: 50vh;
+         } 
+     .cim{
+         display: flex;
+         flex-direction:row;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 40px;
+         margin-left: -150px;
+     }
+     
+     .Classifieds{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         width: 600px;
+     }
+    .card-title{
+       display: block;
+    }
+    .CompanyPages{
+        background-color:white;
+        width:650px;
+        box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+        -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+    }
+    .Company1{
+        height:81%;
+    }
+    .Support2{
+        height:78%;
+    }
+    .Support4{
+        position:relative;
+        height:64%;
+    }
+    .Support5{
+        height:78%;
+    }
+    
+    .soussection3-Support5{
+        margin-top:10px; 
+    }
+    .DEMO19{
+        flex-direction: column;
+        background-color: #eff3f9!important;
+        margin-top: -80px;
+    }
+    .section3{
+        background-color: #eff3f9!important;
+        height:100%;
+        display: flex;
+    }
+    .soussection3{
+        position: relative;
+    }
+    .section31{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    
+    }
+    .Pagessoussection3{
+    
+    }
+    .Page:not(span):hover{
+    background-color: #eff3f9!important;  
+    }
+    .Page{
+        font-size: 15px;
+        height:43;
+    }
+    .Page:not(:last-child){
+        border-bottom: 1px solid #b0b0b0;
+        font-size: 15px;
+        height:43px;
+    }
+    .Page :hover{
+        height:43px;
+    }
+    
+    
+    .Basic p{
+       display:flex; 
+       padding: 10px;
+     }
+    .ARROWBasic{
+        position:absolute;
+         margin-left: 95%; 
+    }
+
+    .footerbootstrap{
+           
+    }
+     .sousfooter{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-wrap: wrap;
+        gap: 70%;
+    } 
+    .footerPRODUCT a{
+        text-decoration: none;
+        color: rgb(147, 146, 146);
+    }
+    .footerPRODUCT a:hover{
+        text-decoration:underline;
+    }
+   
+    .PRODUCT{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        background: transparent;
+        width: 17%;
+        height: 35%;
+    }
+    .PRODUCT a{
+        text-decoration: none;
+        color: rgb(147, 146, 146);
+    }
+    .PRODUCT a:hover{
+        text-decoration:underline;
+    }
+    .PRODUCT3{
+        margin-top:-20%;
+    }
+    .PRODUCT4{
+        margin-top:-00%;
+    }
+    .PRODUCT2{
+        margin-top:-35%;
+    }
+
+
+
+    .traitfooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        height: 2px;
+        background-color: #d4d2d2;
+        margin-left:8%;
+     }
+
+     .Copyright{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+         gap: 30%;
+        padding: 1.5%;
+        color:#c4c4c4;  
+     }
+     .sousfooter2{
+        margin-top: 130%;
+       
+     }
+ }
+
+ @media screen and (max-width:576px){
+    .DEMODOCUMENTATION{
+        gap: 25px;
+    }
+
+    .BuildA{
+        font-size: 36px;
+        margin-top: 105px;
+       }
+       .BuildB {
+           font-size: 18px;
+          }
+    .textetboutton{
+        margin-left: -150px;
+        margin-top: -100px;
+    }
+
+
+
+
+
+
+
+
+    .container6{  
+        margin-left: -30px;      
+          /* position: absolute;
+          width:30%;
+          height: 48vh;
+          background-color: rgb(255, 255, 255);
+          border-radius:10px;
+          margin-left: -25%; */
+      }  
+      .menuPAGED{
+        display:none; 
+        background-color: rgb(255, 255, 255);
+        width:95%;
+        margin-left:0%;
+        border: none;
+        border-radius: 10px;
+        margin-top: 0px;
+      } 
+      .menuPAGEDactive{
+        /* position: absolute; */
+        background-color: rgb(255, 255, 255);
+        display: flex; 
+        width:95%;
+        margin-left:0%;
+        border: none;
+        margin-top: -10px;
+    }
+    .container7:hover{
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        width: 140%;
+    }
+    
+
+
+
+
+
+
+
+
+
+   
+    /* .menuPAGED{
+        width:300%;
+        margin-left:0%;
+        background: transparent;
+        border: none;
+    } */
+
+    
+    .navbar{
+        padding: 25px;
+        margin-top: 50px;
+    }
+    .btn-success{
+        padding: 10px;
+        margin-right: 65%;
+    }
+    .APPLICATIONSrectify{
+        height:1000px;
+        width: 400px;
+        margin-left: 15px;
+        
+    } 
+    .navbar-nav .menu {
+        position: static;
+        width: 60%;
+    } 
+    
+    .navbar-nav .menuPAGE{
+        position: static;
+        width:70%;
+
+    }
+    .COMPANY{
+        height: 1020px;
+        width: 400px;
+        margin-left: 15px;
+        
+    }
+
+
+
+
+    .pop{
+        display: none;
+        position: fixed;
+        margin-left: 70%;
+        margin-top: -10%;   
+        width: 29%;
+        height: 68%;
+        z-index: 20;
+     }
+    
+    .pop.visiblepop{
+        opacity: 1;
+        display: flex;
+        z-index: 20;
+    }
+    .DEMO12{
+        flex-direction: column;
+    }
+    .when{
+        line-height:5px;
+        text-align: center;
+    }
+    .les2{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(100, 100, 100);
+    }
+    .primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bfd6f8;
+        color: #0061f2!important;
+        padding: 2px;
+        width: 80px;
+    }
+    .containertamplet{
+        margin-top: 0%;
+        display: flex;
+        float: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    }
+    .cim{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    
+    .Classifieds{
+        flex-direction: column;
+    }
+    .card-title{
+       display: block;
+    }
+    .CompanyPages{
+        background-color:white;
+        width:300px;
+        box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+        -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+    }
+    .Company1{
+        height:82%;
+    }
+    .Support2{
+        height:78%;
+    }
+    .Support4{
+        position:relative;
+        margin-top:5px;
+        height:64%;
+    }
+    .Support5{
+        height:78%;
+    }
+    
+    .soussection3-Support5{
+        margin-top:-50px;
+    }
+    .DEMO19{
+        flex-direction: column;
+        background-color: #eff3f9!important;
+        margin-top: -80px;
+    }
+    .section3{
+        background-color: #eff3f9!important;
+        height:100%;
+        display: flex;
+    }
+    .soussection3{
+        position: relative;
+    }
+    .section31{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    
+    }
+    .Pagessoussection3{
+    
+    }
+    .Page:not(span):hover{
+    background-color: #eff3f9!important;  
+    }
+    .Page{
+        font-size: 15px;
+        height:43;
+    }
+    .Page:not(:last-child){
+        border-bottom: 1px solid #b0b0b0;
+        font-size: 15px;
+        height:43px;
+    }
+    .Page :hover{
+        height:43px;
+    }
+    
+    
+    .Basic p{
+       display:flex; 
+       padding: 10px;
+     }
+    .ARROWBasic{
+        position:absolute;
+         margin-left: 85%; 
+    }
+    .PRODUCT3{
+        margin-top:-37%;
+    }
+    .PRODUCT4{
+        margin-top:-00%;
+    }
+    .PRODUCT2{
+        margin-top:-35%;
+    }
+
+    .traitfooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        height: 2px;
+        background-color: #d4d2d2;
+        margin-left:8%;
+     }
+
+     .Copyright{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+         gap: 30%;
+        padding: 1.5%;
+        color:#c4c4c4;  
+     }
+     .sousfooter2{
+        margin-top: 240%;
+       
+     }
+ }
+
+ @media screen and (max-width:500px){
+    /* .navbar-dark{
+        max-height: 500px;
+        overflow-y: scroll;
+
+    } */
+    .container6{  
+        margin-left: -30px;      
+          /* position: absolute;
+          width:30%;
+          height: 48vh;
+          background-color: rgb(255, 255, 255);
+          border-radius:10px;
+          margin-left: -25%; */
+      }  
+      .menuPAGED{
+        display:none; 
+        background-color: rgb(255, 255, 255);
+        width:95%;
+        margin-left:0%;
+        border: none;
+        border-radius: 10px;
+        margin-top: 0px;
+      } 
+      .menuPAGEDactive{
+        /* position: absolute; */
+        background-color: rgb(255, 255, 255);
+        display: flex; 
+        width:95%;
+        margin-left:0%;
+        border: none;
+        margin-top: -10px;
+    }
+    .container7:hover{
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        width: 115%;
+    }
+    
+
+
+
+
+
+
+
+
+
+    /* .menuPAGED{
+        width:250%;
+        margin-left:0%;
+        background: transparent;
+        border: none;
+    } */
+    
+    
+    .navbar{
+        padding: 25px;
+        margin-top: 50px;
+    }
+    .btn-success{
+        padding: 10px;
+        margin-right: 65%;
+    }
+    
+
+
+
+
+    .APPLICATIONSrectify{
+        height:970px;
+        width: 330px;
+        margin-left: 15px;
+        
+    } 
+    .COMPANY{
+        height: 1040px;
+        width: 330px;
+        margin-left: 15px;
+        
+    }
+    .navbar-nav .menu {
+        position: static;
+        width: 60%;
+    } 
+    
+    .navbar-nav .menuPAGE{
+        position: static;
+        width:70%;
+
+    }
+    .COMPANY{
+        height: 1040px;
+        width: 330px;
+        margin-left: 15px;
+        
+    }
+
+
+    .card img{
+        height: 50vh; 
+         } 
+     .cim{
+         display: flex;
+         flex-direction:row;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 40px;
+     }
+     
+     .Classifieds{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         width: 600px;
+     }
+
+
+     .PRODUCT3{
+        margin-top:-45%;
+    }
+    .PRODUCT4{
+        margin-top:-20%;
+    }
+    .PRODUCT2{
+        margin-top:-35%;
+    }
+ }
+
+  .image{
+    width:80%;
+  }
+  .SOUSSECTION1{
+    margin-top:10%;
+    margin-left: 130px;
+  }
+  .reveal{
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  .reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: .4s cubic-bezier(1, 1, 1, 1);
+  }
+  .Welcome{
+        color: rgb(201, 199, 199);
+  }
+  .DOCUMENTATION span:hover{
+    text-decoration: underline;
+    color: rgb(183, 181, 179);
+  }
+  .VEIWDEMO.DEMO:hover{
+    color:green;
+  } 
+  .DEMO{ 
+    font-size: 13px;
+    padding: 15px;
+    margin: -25px;
+    margin-right: -50px;
+  }
+  .Build{
+    
+  }
+  .SECTION1{
+    position:relative;
+    background-color: #0061f2;
+    background-image: linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));
+    height: 150vh;
+  }
+  
+.TAKEYour{
+    line-height: 5px;
+}
+.conteneurpop{
+    margin: 10px;
+    flex-direction: column; 
+}
+.form-control{
+    width: 165%;
+    margin-left: -50px;
+}
+.timespop{
+    float: right;
+    margin-top: -38px;
+    margin-right: -35px;
+    background-color: black;
+    border-radius: 105%;
+    color: rgb(230, 226, 226);
+    cursor: pointer; 
+}
+.con{
+     margin-left: 20px;
+    margin-top: 16px; 
+    width: 90%;
+    height: 93%; 
+    border: 0.25rem dotted #e0e5ec;
+    padding: 1rem;
+    text-align: center;
+}
+.btntimes{
+    color:white;
+}
+.btntimes:hover{
+    color:white;
+}
+.TAKEYour{
+    font-size: 25px;
+    word-spacing: 10px;
+    font-weight: bold;
+    color: rgb(120, 119, 119);
+}
+.Coupon{
+    width: 1000%;
+    margin-left: -115px;
+}
+ @media screen and (max-width:932px){ 
+    #pop{
+        display: flex;
+       position: fixed;
+       margin-left: 57%;
+       margin-top: -5%;   
+       width: 40%;
+       height: 55%;
+      
+   }
+  
+.con{
+ margin-left: 20px;
+margin-top: px; 
+width: 90%;
+height: 92%; 
+border: 0.25rem dotted #e0e5ec;
+padding: 1rem;
+text-align: center;
+line-height: 10px;
+
+}
+.No{
+ margin-top: 10px;
+}
+.pop{
+    display: none;
+    position: fixed;
+    margin-left: 70%;
+    margin-top: -10%;   
+    width: 29%;
+    height: 68%;
+    z-index: 20;
+ }
+.pop.visiblepop{
+    opacity: 1;
+    display: flex;
+    z-index: 20;
+}
+.DEMO12{
+    flex-direction: column;
+}
+.when{
+    line-height:5px;
+    text-align: center;
+}
+.les2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfd6f8;
+    color: #0061f2!important;
+    padding: 2px;
+    width: 80px;
+}
+.containertamplet{
+    margin-top: 0%;
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.cim{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.Classifieds{
+    flex-direction: column;
+}
+.card-title{
+   display: block;
+}
+.CompanyPages{
+    background-color:white;
+    width:600px;
+    box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+}
+.Company1{
+    height:81%;
+}
+.Support2{
+    height:78%;
+}
+.Support4{
+    position:relative;
+    height:64%;
+}
+.Support5{
+    height:78%;
+}
+.soussection3-Support5{
+    margin-top:10px; 
+}
+.DEMO19{
+    flex-direction: column;
+    background-color: #eff3f9!important;
+    margin-top: -80px;
+}
+.section3{
+    background-color: #eff3f9!important;
+    height:100%;
+    display: flex;
+}
+.soussection3{
+    position: relative;
+}
+.section31{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+.Pagessoussection3{
+
+}
+.Page:not(span):hover{
+background-color: #b0b0b0;   
+}
+.Page{
+    font-size: 15px;
+    height:43;
+}
+.Page:not(:last-child){
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 15px;
+    height:43px;
+}
+.Page :hover{
+    height:43px;
+}
+.Basic p{
+   display:flex; 
+   padding: 10px;
+ }
+.ARROWBasic{
+    position:absolute;
+     margin-left: 95%; 
+}
+} 
+
+@media screen and (max-width:788px){ 
+    
+
+   #pop{
+    display: flex;
+   position: fixed;
+   margin-left: 45%;
+   margin-top: -5%;   
+   width: 50%;
+   height: 55%;
+  
+}
+
+.con{
+margin-left: 20px;
+margin-top: px; 
+width: 90%;
+height: 92%; 
+border: 0.25rem dotted #e0e5ec;
+padding: 1rem;
+text-align: center;
+line-height: 10px;
+
+}
+.No{
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+.pop{
+    display: none;
+    position: fixed;
+    margin-left: 70%;
+    margin-top: -10%;   
+    width: 29%;
+    height: 68%;
+    z-index: 20;
+ }
+
+.pop.visiblepop{
+    opacity: 1;
+    display: flex;
+    z-index: 20;
+}
+.DEMO12{
+    flex-direction: column;
+}
+.when{
+    line-height:5px;
+    text-align: center;
+}
+.les2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfd6f8;
+    color: #0061f2!important;
+    padding: 2px;
+    width: 80px;
+}
+.containertamplet{
+    margin-top: 0%;
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.cim{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Classifieds{
+    flex-direction: column;
+}
+.card-title{
+   display: block;
+}
+.CompanyPages{
+    background-color:white;
+    width:500px;
+    box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+}
+.Company1{
+    height:81%;
+}
+.Support2{
+    height:78%;
+}
+.Support4{
+    position:relative;
+    height:64%;
+}
+.Support5{
+    height:78%;
+}
+
+.soussection3-Support5{
+    margin-top:10px; 
+}
+.DEMO19{
+    flex-direction: column;
+    background-color: #eff3f9!important;
+    margin-top: -80px;
+}
+.section3{
+    background-color: #eff3f9!important;
+    height:100%;
+    display: flex;
+}
+.soussection3{
+    position: relative;
+}
+.section31{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+.Pagessoussection3{
+
+}
+.Page:not(span):hover{
+background-color: #b0b0b0;   
+}
+.Page{
+    font-size: 15px;
+    height:43;
+}
+.Page:not(:last-child){
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 15px;
+    height:43px;
+}
+.Page :hover{
+    height:43px;
+}
+
+
+.Basic p{
+   display:flex; 
+   padding: 10px;
+ }
+.ARROWBasic{
+    position:absolute;
+     margin-left: 90%; 
+}
+
+} 
+@media screen and (max-width:652px){ 
+    #pop{
+        display: flex;
+       position: fixed;
+       margin-left: 35%;
+       margin-top: -5%;   
+       width: 60%;
+       height: 55%;
+      
+    }
+    
+    .con{
+    margin-left: 20px;
+    margin-top: px; 
+    width: 90%;
+    height: 92%; 
+    border: 0.25rem dotted #e0e5ec;
+    padding: 1rem;
+    text-align: center;
+    line-height: 10px;
+    
+    }
+    .No{
+    margin-top: 10px;
+    }
+
+
+
+
+
+
+    .pop{
+        display: none;
+        position: fixed;
+        margin-left: 70%;
+        margin-top: -10%;   
+        width: 29%;
+        height: 68%;
+        z-index: 20;
+     }
+    
+    .pop.visiblepop{
+        opacity: 1;
+        display: flex;
+        z-index: 20;
+    }
+    .DEMO12{
+        flex-direction: column;
+    }
+    .when{
+        line-height:5px;
+        text-align: center;
+    }
+    .les2{
+        text-align: center;
+        font-size: 20px;
+        color: rgb(100, 100, 100);
+    }
+    .primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bfd6f8;
+        color: #0061f2!important;
+        padding: 2px;
+        width: 80px;
+    }
+    .containertamplet{
+        margin-top: 0%;
+        display: flex;
+        float: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+    }
+    .cim{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    
+    .Classifieds{
+        flex-direction: column;
+    }
+    .card-title{
+       display: block;
+    }
+    .CompanyPages{
+        background-color:white;
+        width:400px;
+        box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+        -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+    }
+    .Company1{
+        height:81%;
+    }
+    .Support2{
+        height:78%;
+    }
+    .Support4{
+        position:relative;
+        height:64%;
+    }
+    .Support5{
+        height:78%;
+    }
+    
+    .soussection3-Support5{
+        margin-top:10px; 
+    }
+    .DEMO19{
+        flex-direction: column;
+        background-color: #eff3f9!important;
+        margin-top: -80px;
+    }
+    .section3{
+        background-color: #eff3f9!important;
+        height:100%;
+        display: flex;
+    }
+    .soussection3{
+        position: relative;
+    }
+    .section31{
+        position:relative;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    
+    }
+    .Pagessoussection3{
+    
+    }
+    .Page:not(span):hover{
+    background-color: #eff3f9!important;  
+    }
+    .Page{
+        font-size: 15px;
+        height:43;
+    }
+    .Page:not(:last-child){
+        border-bottom: 1px solid #b0b0b0;
+        font-size: 15px;
+        height:43px;
+    }
+    .Page :hover{
+        height:43px;
+    }
+    
+    
+    .Basic p{
+       display:flex; 
+       padding: 10px;
+     }
+    .ARROWBasic{
+        position:absolute;
+         margin-left: 90%; 
+    }
+    
+} 
+@media screen and (max-width:558px){ 
+    #pop{
+       display: flex;
+       position: fixed;
+       margin-left: 30%;
+       margin-top: -10%;   
+       width: 67%;
+       height: 55%;
+   }
+   .con{
+    margin-left: 20px;
+   margin-top: px; 
+   width: 90%;
+   height: 92%; 
+   border: 0.25rem dotted #e0e5ec;
+    padding: 1rem;
+   text-align: center;
+   line-height: 10px;
+  
+}
+.No{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.pop{
+    display: none;
+    position: fixed;
+    margin-left: 70%;
+    margin-top: -10%;   
+    width: 29%;
+    height: 68%;
+    z-index: 20;
+ }
+
+.pop.visiblepop{
+    opacity: 1;
+    display: flex;
+    z-index: 20;
+}
+.DEMO12{
+    flex-direction: column;
+}
+.when{
+    line-height:5px;
+    text-align: center;
+}
+.les2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfd6f8;
+    color: #0061f2!important;
+    padding: 2px;
+    width: 80px;
+}
+.containertamplet{
+    margin-top: 0%;
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.cim{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Classifieds{
+    flex-direction: column;
+}
+.card-title{
+   display: block;
+}
+.CompanyPages{
+    background-color:white;
+    width:250px;
+    box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+}
+.Company1{
+    height:81%;
+}
+.Support2{
+    height:78%;
+}
+.Support4{
+    position:relative;
+    height:64%;
+}
+.Support5{
+    height:78%;
+}
+
+.soussection3-Support5{
+    margin-top:10px; 
+}
+.DEMO19{
+    flex-direction: column;
+    background-color: #eff3f9!important;
+    margin-top: -80px;
+}
+.section3{
+    background-color: #eff3f9!important;
+    height:100%;
+    display: flex;
+}
+.soussection3{
+    position: relative;
+}
+.section31{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+.Pagessoussection3{
+
+}
+.Page:not(span):hover{
+background-color: #b0b0b0;   
+}
+.Page{
+    font-size: 15px;
+    height:43;
+}
+.Page:not(:last-child){
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 15px;
+    height:43px;
+}
+.Page :hover{
+    height:43px;
+}
+
+
+.Basic p{
+   display:flex; 
+   padding: 10px;
+ }
+.ARROWBasic{
+    position:absolute;
+     margin-left: 90%; 
+}
+
+} 
+@media screen and (max-width:500px){ 
+    #pop{
+       display: flex;
+       position: fixed;
+       margin-left: 25%;
+       margin-top: -10%;   
+       width: 70%;
+       height: 55%;
+       padding: -1rem;
+   }
+   .con{
+    margin-left: 20px;
+   margin-top: px; 
+   width: 90%;
+   height: 92%; 
+   border: 0.25rem dotted #e0e5ec;
+   padding: 1rem;
+   text-align: center;
+   line-height: 10px;
+  
+}
+.No{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.pop{
+    display: none;
+    position: fixed;
+    margin-left: 70%;
+    margin-top: -10%;   
+    width: 29%;
+    height: 68%;
+    z-index: 20;
+ }
+
+.pop.visiblepop{
+    opacity: 1;
+    display: flex;
+    z-index: 20;
+}
+.DEMO12{
+    flex-direction: column;
+}
+.when{
+    line-height:5px;
+    text-align: center;
+}
+.les2{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+.primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfd6f8;
+    color: #0061f2!important;
+    padding: 2px;
+    width: 80px;
+}
+.containertamplet{
+    margin-top: 0%;
+    display: flex;
+    float: center;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+-moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+-webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.cim{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.Classifieds{
+    flex-direction: column;
+}
+.card-title{
+   display: block;
+}
+.CompanyPages{
+    background-color:white;
+    width:300px;
+    box-shadow: -1px 9px 40px -12px rgba(140, 140, 140, 0.75);
+    -moz-box-shadow:-1px 9px 40px -12px rgba(188, 188, 188, 0.75);   
+}
+.Company1{
+    height:82%;
+}
+.Support2{
+    height:78%;
+}
+.Support4{
+    position:relative;
+    margin-top:5px;
+    height:64%;
+}
+.Support5{
+    height:78%;
+}
+
+.soussection3-Support5{
+    margin-top:-50px;
+}
+.DEMO19{
+    flex-direction: column;
+    background-color: #eff3f9!important;
+    margin-top: -80px;
+}
+.section3{
+    background-color: #eff3f9!important;
+    height:100%;
+    display: flex;
+}
+.soussection3{
+    position: relative;
+}
+.section31{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+.Pagessoussection3{
+
+}
+.Page:not(span):hover{
+background-color: #b0b0b0;   
+}
+.Page{
+    font-size: 15px;
+    height:43;
+}
+.Page:not(:last-child){
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 15px;
+    height:43px;
+}
+.Page :hover{
+    height:43px;
+}
+
+
+.Basic p{
+   display:flex; 
+   padding: 10px;
+ }
+.ARROWBasic{
+    position:absolute;
+     margin-left: 85%; 
+}
+
+} 
+
+@media screen and (max-width:398px){
+    .btn-buynow{
+        margin-left:0px;
+        width: 30%;
+        font-size: 13px;
+        padding: 13px;
+        margin-top: 40px;
+     }
+    .APPLICATIONSrectify{
+        height:970px;
+        width: 230px;
+        margin-left: 15px;
+        
+    } 
+    .COMPANY{
+        height: 1040px;
+        width: 230px;
+        margin-left: 15px;
+        
+    }
+    .les2{
+
+        font-size: 65%;
+    }
+    .Build p{
+        font-size: 90%;
+    }
+    .DEMO{
+        font-size: 50%;
+        margin-left:10px;
+    }
+    .textetboutton{
+        margin-top: 0%;
+        width: 90%;
+        height: 100%;
+    }
+    .DOCUMENTATION{
+        font-size: 70%;
+    }
+    .DEMODOCUMENTATION{
+        gap: 50px;
+    }
+    .SECTION1{
+        position:relative;
+        background-color: #0061f2;
+        background-image: linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));
+        height: 70vh;
+      }
+      .Classifieds{
+        
+      }
+
+
+      .card img{
+        width: 100%;
+      } 
+
+      .Classifieds{
+        width: 30%;
+      }
+      .cim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+      }
+}
+
+
+
+@media screen and (max-width:400px){
+    .btn-buynow{
+        margin-left:0px;
+        width: 50%;
+        font-size: 13px;
+        padding: 13px;
+        margin-top: 40px;
+     }
+    .APPLICATIONSrectify{
+        height:970px;
+        width: 200px;
+        margin-left: 15px;
+        
+    } 
+    .COMPANY{
+        height: 1040px;
+        width: 200px;
+        margin-left: 15px;
+        
+    }
+    .les2{
+
+        font-size: 65%;
+    }
+    .Build p{
+        font-size: 90%;
+    }
+    .DEMO{
+        font-size: 50%;
+        margin-left:10px;
+    }
+    .textetboutton{
+        margin-top: 0%;
+        width: 90%;
+        height: 100%;
+    }
+    .DOCUMENTATION{
+        font-size: 70%;
+    }
+    .DEMODOCUMENTATION{
+        gap: 50px;
+    }
+    .SECTION1{
+        position:relative;
+        background-color: #0061f2;
+        background-image: linear-gradient(135deg,#0061f2,rgba(105,0,199,.8));
+        height: 70vh;
+      }
+      .Classifieds{
+        
+      }
+
+
+      .card img{
+        width: 100%;
+      } 
+
+      .Classifieds{
+        width: 30%;
+      }
+      .cim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.LOREM{
+    margin-top:300px;
+}
